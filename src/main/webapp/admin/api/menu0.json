@@ -1,0 +1,101 @@
+{
+  "clearInfo": {
+    "clearUrl": "/films/admin/api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/films/admin/welcome.jsp"
+  },
+  "logoInfo": {
+    "title": "后台管理",
+    "image": "/films/admin/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "",
+      "icon": "",
+      "child": [
+        {
+          "title": "用户管理",
+          "href": "/films/admin/users1.jsp",
+          "icon": "fa fa-users",
+          "target": "_self"
+        },
+        {
+          "title": "会员管理",
+          "href": "/films/admin/users2.jsp",
+          "icon": "fa fa-user",
+          "target": "_self"
+        },
+        {
+          "title": "影剧院管理",
+          "href": "/films/admin/cinema.jsp",
+          "icon": "fa fa-cogs",
+          "target": "_self"
+        },
+        {
+          "title": "播放厅管理",
+          "href": "/films/admin/ting.jsp",
+          "icon": "fa fa-cubes",
+          "target": "_self"
+        },
+        {
+          "title": "电影类型管理",
+          "href": "/films/admin/kind.jsp",
+          "icon": "fa fa-cubes",
+          "target": "_self"
+        },
+        {
+          "title": "电影管理",
+          "href": "/films/admin/goods.jsp",
+          "icon": "fa fa-cube",
+          "target": "_self"
+        },
+        {
+          "title": "物品管理",
+          "href": "/films/admin/wupin.jsp",
+          "icon": "fa fa-list",
+          "target": "_self"
+        },
+        {
+          "title": "排片管理",
+          "href": "/films/admin/paipian.jsp",
+          "icon": "fa fa-calendar",
+          "target": "_self"
+        },
+        {
+          "title": "订单管理",
+          "href": "/films/admin/orders.jsp",
+          "icon": "fa fa-credit-card ",
+          "target": "_self"
+        },
+        {
+          "title": "通知管理",
+          "href": "/films/admin/notice.jsp",
+          "icon": "fa fa-volume-down",
+          "target": "_self"
+        },
+        {
+          "title": "评论管理",
+          "href": "/films/admin/message.jsp",
+          "icon": "fa fa-comments-o",
+          "target": "_self"
+        },
+         {
+          "title": "销售统计",
+          "href": "/films/admin/tongji.jsp",
+          "icon": "fa fa-line-chart",
+          "target": "_self"
+        },
+        {
+          "title": "退出",
+          "href": "/films/users/logout",
+          "icon": "fa fa-window-close",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}

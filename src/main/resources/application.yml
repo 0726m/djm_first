@@ -1,0 +1,47 @@
+server: 
+ max-http-header-size: 100000
+ servlet:
+  context-path: /films
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_films?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000bug
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT (1)
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  jpa:
+    show-sql: true
+  messages:
+    basename: i18n
+  mvc:
+    format:
+      date: yyyy-MM-dd
+    view:
+      prefix: /
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  mail: 
+    host: smtp.qq.com
+    username: 2512066213@qq.com
+    password: uvqmxofptbsxeaeb       
+
+logging:
+  level:
+    cn: debug
